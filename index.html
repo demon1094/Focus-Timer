@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Timer</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="container">
+      <div class="timer">
+        <div class="timer-counter">
+          <span class="minutes" id="minutes">25</span>
+          <span> :</span>
+          <span class="seconds" id="seconds">00</span>
+        </div>
+  
+        <div class="timer-buttons">
+          <button class="play-pause">
+            <img class="play" src="./assets/play-circle.svg">
+            <img class="pause hide" src="./assets/pause-circle.svg">
+          </button>
+
+          <button class="selectminutes-stop">
+            <img class="select-minutes" src="./assets/stopwatch.svg">
+            <img class="stop hide" src="./assets/stop-circle.svg">
+          </button>
+        </div>
+      </div>
+
+      <div class="sound">
+        <button class="soundon-soundoff">
+          <img class="sound-on hide" src="./assets/volume-medium.svg">
+          <img class="sound-off" src="./assets/volume-mute.svg">
+        </button>
+      </div>
+    </main>
+
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
